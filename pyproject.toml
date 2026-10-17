@@ -1,0 +1,11 @@
+[project]
+name = "gpol-backend"
+version = "0.1.0"
+description = "Backend server for gpol"
+requires-python = ">=3.14"
+dependencies = [
+    "construct>=2.10.70",
+    "nuitka>=4.3",
+    "osu-py>=4.3.1",
+    "sanic>=25.12.1",
+]
